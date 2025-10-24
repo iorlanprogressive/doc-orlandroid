@@ -1,0 +1,18 @@
+- [Главная](/README.md)
+- Разделы приложения
+  - [Топ](/sections/top/README.md)
+  - [Категории](/sections/categories/README.md)
+  - [Мои](/sections/myapps/README.md)
+  - [Аккаунт](/sections/account/README.md)
+- Особенности
+  - [Страница приложения](/features/app/README.md)
+  - [Отзывы](/features/app/reviews/README.md)
+  - [Рейтинг](/features/app/rating/README.md)
+  - [Служебная информация](/features/app/service-info/README.md)
+  - [Страница разработчика](/features/developer/README.md)
+  - [Статус разработчика](/features/developer/status/README.md)
+  - [Контакты разработчика](/features/developer/contacts/README.md)
+  - [Поиск](/features/search/README.md)
+  - [Сортировка](/features/sort/README.md)
+- [Участники](/etc/contributors/README.md)
+- [Дорожная карта](/etc/roadmap/README.md)

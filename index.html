@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Документация OrlanDroid</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Документация мобильного приложения OrlanDroid">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Документация OrlanDroid',
+      repo: 'iorlanprogressive/doc-orlandroid',
+      logo: 'logo.svg',
+      loadSidebar: true,
+      autoHeader: true,
+      subMaxLevel: 3,
+      alias: {
+        '/': '/README.md',
+
+        '/sections/top': '/sections/top/README.md',
+        '/sections/categories': '/sections/categories/README.md',
+        '/sections/myapps': '/sections/myapps/README.md',
+        '/sections/account': '/sections/account/README.md',
+
+        '/features/app': '/features/app/README.md',
+        '/features/app/reviews': '/features/app/reviews/README.md',
+        '/features/app/rating': '/features/app/rating/README.md',
+        '/features/app/service-info': '/features/app/service-info/README.md',
+        '/features/developer': '/features/developer/README.md',
+        '/features/developer/status': '/features/developer/status/README.md',
+        '/features/developer/contacts': '/features/developer/contacts/README.md',
+        '/features/search': '/features/search/README.md',
+        '/features/sort': '/features/sort/README.md',
+
+        '/etc/contributors': '/etc/contributors/README.md',
+        '/etc/roadmap': '/etc/roadmap/README.md',
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-footnote"></script>
+</body>
+</html>
